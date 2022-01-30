@@ -1,0 +1,13 @@
+Geography,Latitude_Vs,Obs1,Obs2
+Global,Max Temperature,Temperature south of the equator is not correlated with latitude.,Temperature is more extreme once latitude increases above 0 degrees.
+Global,Humidity,Humidity and latitude have low correlation,"In general, more locations have above 60% humidity"
+Global,Cloudiness,Cloudiness distribution may be bi-modal given disparity of plot concentration as cloudiness approaches 0 and 100,Cloudiness and latitude appear uncorrelated
+Global,Wind Speed,Windspeed and latitude are uncorrelated,Windspeed is typically less than 7.5 mph
+Northern,Max Temperature,"Temperature and latitude are correlated, supported by r-squared of 0.74",Stronger correlation appears to exist when latitude < 40 degrees
+Northern,Humidity,Correlation does not appear to exist between latitude and humidity,Humidty and latitude may have correlation when latitude > 50 degrees.  More analysis is needed.
+Northern,Cloudiness,"Consistent with global observation, cloudiness and latitude are uncorrelated",Cloudiness distribution appears bi-modal supported by concentration of scatter plot points at extreme cloudiness values
+Northern,Wind Speed,Windspeed and latitude are uncorrelated,"Consistent with global observation, most cities appear to have windspeed < 7.5 mph"
+Southern,Max Temperature,"Unlike the northern hemisphere, there is no correlation between temperature and latitude",Temperature in the southern hemisphere lacks the extreme values observed in the north
+Southern,Humidity,Humidity and latitude have low correlation,Humidity in the southern hemisphere rarely gets below 20%
+Southern,Cloudiness,Cloudiness and latitude are uncorrelated,"Like in the northern hemisphere, cloudiness levels appear bi-modal although not as strongly."
+Southern,Wind Speed,Windspeed and latitude are uncorrelated,Very few cities appear to have windspeeds less than 8 mph
